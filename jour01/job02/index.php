@@ -1,7 +1,7 @@
 <?php
 $str="Laplateforme ";
 
-$str2="vive ";
+$str2="Hello ";
 
 
 $str3="!";
