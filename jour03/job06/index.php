@@ -1,7 +1,7 @@
-<?php  
+<?php
+            $str = "Les choses que l'on possede finissent par nous posseder.";
+            $str_len = count(str_split($str));
 
-$str = "Les choses que l'on
-possede finissent par nous posseder.";
-
-echo strrev($str);
-?>
+            for ($i = $str_len - 1; $i >= 0; --$i)
+                echo $str[$i];
+        ?>
